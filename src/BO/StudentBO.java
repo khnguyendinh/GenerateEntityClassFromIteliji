@@ -3,7 +3,7 @@ package BO;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "student", schema = "test", catalog = "")
+@Table(name = "student", schema = "test")
 public class StudentBO {
     private int id;
     private String name;
